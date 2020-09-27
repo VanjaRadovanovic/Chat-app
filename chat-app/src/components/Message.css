@@ -1,0 +1,54 @@
+.my-message{
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.my-message > div{
+    background-color: #7373FA;
+    color: white;
+    text-align: end;
+}
+
+.other-message{
+    justify-self: start;
+    margin-left: 10px;
+}
+
+.other-message > div{
+    background-color: white;
+    text-align: start;
+}
+
+.one-message-countainer{
+    background-color: transparent;
+    display: grid;
+    margin-top: 10px;
+}
+
+.message{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    max-width: 280px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.one-message-countainer > div > p{
+    color: #767676;
+    font-size: 12px;
+}
+
+.one-message-countainer > .my-message > p{
+    text-align: end;
+    margin-right: 2px;
+}
+
+.one-message-countainer > .other-message > p{
+    text-align: start;
+    margin-left: 2px;
+}
+
+.no-margin-top{
+    margin-top: 1px;
+}
